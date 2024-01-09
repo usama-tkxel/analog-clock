@@ -1,0 +1,78 @@
+.container-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.login-text,
+.login-sub-text,
+.btn {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+}
+.login-text {
+  font-size: 2rem;
+  line-height: 0rem;
+  color: #101828;
+}
+.login-sub-text {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  color: #667085;
+}
+.login-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btn {
+  width: 22.5rem;
+  height: 2.625rem;
+  background: #111928;
+  border: 1px solid #111928;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  margin-top: 1rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+.btn-admin {
+  width: 22.5rem;
+  height: 2.625rem;
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+  background: none;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #4b5563;
+  cursor: pointer;
+}
+.sub-text {
+  color: #144dbb;
+  cursor: pointer;
+}
+.forgot-password {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #144dbb;
+  text-align: end;
+  cursor: pointer;
+}

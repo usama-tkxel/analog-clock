@@ -1,0 +1,30 @@
+@import '../../styles/base/variables';
+
+.card_wrapper {
+    padding: 20px 4px;
+    // width: 192px;
+    background-color: $black50;
+    border: 1px solid $black200;
+    border-radius: 4px;
+    height: 100%;
+    text-align: center;
+
+    .card_img {
+        width: 83px;
+        height: 85px;
+        background: #E5E7EB;
+        border-radius: 4px;
+    }
+
+    .card_line{
+        width: 140px;
+        border: 6px solid $black200;
+        border-radius: 8px;
+        margin-bottom: 16px;
+    }
+    .card_line_sm{
+        width: 84px;
+        border: 6px solid $black200;
+        border-radius: 8px;
+    }
+}
