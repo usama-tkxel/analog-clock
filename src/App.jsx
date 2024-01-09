@@ -10,6 +10,8 @@ import "../styles/base/_fonts.scss";
 import "../styles/base/_typography.scss";
 import "../styles/base/_variables.scss";
 import "../styles/base/normalize.scss";
+import AnalogClock from "./clock/main";
+
 function App() {
   const currentUser = useSelector((state) =>
     state.auth ? state.auth.currentUser : null
@@ -22,11 +24,12 @@ function App() {
     <Fragment>
       {/* <Navbar currentUser={currentUser} loggingStatus={loggingStatus} /> */}
       <Header />
-      <AppRoutes
+      <AnalogClock />
+      {/* <AppRoutes
         currentUser={currentUser}
         loggingStatus={loggingStatus}
         role={currentUser?.role}
-      />
+      /> */}
     </Fragment>
   );
 }
